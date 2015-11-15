@@ -49,7 +49,6 @@
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="device,espresso" remote="omap4-aosp" revision="aosp-6.0" />
   <project path="device/samsung/p5100" name="android_device_samsung_p5100" groups="device,espresso" remote="omap4-aosp" revision="aosp-6.0" />
   <project path="device/samsung/p5110" name="android_device_samsung_p5110" groups="device,espresso" remote="omap4-aosp" revision="aosp-6.0" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" groups="device,tuna" remote="omap4-aosp" revision="aosp-6.0" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="omap4-aosp" revision="aosp-6.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
