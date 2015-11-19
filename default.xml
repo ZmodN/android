@@ -8,6 +8,9 @@
   <remote  name="omap4-aosp"
            fetch="https://github.com/OMAP4-AOSP/" />
 
+  <remote  name="zmodn"
+           fetch="https://github.com/ZmodN" />
+
   <default revision="refs/tags/android-6.0.0_r26"
            remote="aosp"
            sync-j="4" />
