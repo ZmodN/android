@@ -304,7 +304,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="omap4-aosp" revision="aosp-6.0" groups="omap4" />
   <!--<project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="omap4-aosp" revision="aosp-6.0" />-->
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="zmodn-aosp" revision="zmodn-6.0" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
