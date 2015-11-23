@@ -10,6 +10,9 @@
     <remote  name="zmodn"
         fetch="https://github.com/ZmodN" />
 
+    <remote  name="cm"
+        fetch="https://github.com/CyanogenMod" />
+
     <default revision="refs/tags/android-6.0.0_r26"
         remote="aosp"
         sync-j="4" />
@@ -442,6 +445,10 @@
     <!-- tuna -->
     <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
     <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
+    <!--
+                    CyanogenMod stuff
+     -->
+    <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
 </manifest>
 
 
