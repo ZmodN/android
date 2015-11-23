@@ -309,9 +309,7 @@
     <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
     <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
-    <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
     <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
-    <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
     <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
     <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
     <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
@@ -424,9 +422,9 @@
     <project path="frameworks/av" name="android_frameworks_av" remote="omap4-aosp" revision="aosp-6.0" groups="pdk" />
     <project path="frameworks/native" name="android_frameworks_native" remote="omap4-aosp" revision="aosp-6.0" groups="pdk" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omap4-aosp" revision="aosp-6.0" groups="pdk" />
-    <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="omap4-aosp" revision="aosp-6.0" groups="omap4" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omap4-aosp" revision="aosp-6.0" groups="apps_nfc,pdk-fs" />
     <project path="system/core" name="android_system_core" remote="omap4-aosp" revision="aosp-6.0" groups="pdk" />
+    <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" remote="omap4-aosp" revision="aosp-6.0" groups="omap4" />
     <project path="vendor/ti" name="proprietary_vendor_ti" remote="omap4-aosp" revision="aosp-6.0" />
     <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="omap4-aosp" revision="aosp-6.0" />
     <!--
@@ -435,10 +433,15 @@
     <project path="build" name="android_build" remote="zmodn" revision="zmodn-6.0" groups="pdk" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
     <project path="vendor/zmodn" name="platform_vendor_zmodn" remote="zmodn" revision="zmodn-6.0" />
     <project path="frameworks/base" name="android_frameworks_base" remote="zmodn" revision="zmodn-6.0" groups="pdk-cw-fs,pdk-fs" />
-    <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
-    <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
+    <!-- custom apps -->
     <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="zmodn" revision="zmodn-6.0" groups="pdk-fs" />
     <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="zmodn" revision="zmodn-6.0"/>
+    <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="zmodn" revision="zmodn-6.0" />
+    <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="zmodn" revision="zmodn-6.0" />
+    <!-- DEVICES -->
+    <!-- tuna -->
+    <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
+    <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
 </manifest>
 
 
