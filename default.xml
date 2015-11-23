@@ -435,6 +435,7 @@
     <!--
                     ZmodN
      -->
+    <project path="vendor/zmodn" name="platform_vendor_zmodn" remote="zmodn" revision="zmodn-6.0" />
     <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
     <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" groups="device,tuna" remote="zmodn" revision="zmodn-6.0" />
     <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="zmodn" revision="zmodn-6.0" groups="pdk-fs" />
